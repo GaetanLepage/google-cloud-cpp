@@ -454,9 +454,9 @@ cc_library(
     visibility = ["//visibility:public"],
     deps = [
         ":define-ca-bundle-location",
+        "@boringssl//:ssl",
         "@com_github_cares_cares//:ares",
         "@zlib",
-        "@boringssl//:ssl",
     ],
 )
 
